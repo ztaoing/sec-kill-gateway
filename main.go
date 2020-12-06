@@ -14,13 +14,13 @@ import (
 	"github.com/openzipkin/zipkin-go"
 	zipkinhttpSvr "github.com/openzipkin/zipkin-go/middleware/http"
 	zipkinhttp "github.com/openzipkin/zipkin-go/reporter/http"
+	"github.com/ztaoing/sec-kill-gateway/gateway/route"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
+	register "github.com/ztaoing/sec-kill-pkg/pkg/discover"
 	"net"
 	"net/http"
 	"os"
 	"os/signal"
-	"secondkill/gateway/route"
-	"secondkill/pkg/bootstrap"
-	register "secondkill/pkg/discover"
 	"syscall"
 )
 

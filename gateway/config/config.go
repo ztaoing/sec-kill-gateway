@@ -8,7 +8,7 @@ package config
 import (
 	"github.com/go-kit/kit/log"
 	"github.com/spf13/viper"
-	"github.com/ztaoing/sec-kill-pkg/config"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"os"
 )
 
